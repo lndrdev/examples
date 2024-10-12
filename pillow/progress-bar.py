@@ -47,8 +47,8 @@ def create_progress_bar(width, height, progress, bg_color, fg_color, outline_col
 width, height = 300, 30
 progress = 100
 bg_color = (51, 51, 51)  # Dark gray
-fg_color = (255, 153, 0)  # Orange
-outline_color = (255, 153, 0)  # Orange for the outline
+fg_color = (72, 255, 0)  # Neon Green
+outline_color = (72, 255, 0)  # Neon Green for the outline
 outline_width = 3  # Thickness of the outline
 gap = 4  # Gap between the bar and the outline
 progress_bar = create_progress_bar(width, height, progress, bg_color, fg_color, outline_color, outline_width, gap)
