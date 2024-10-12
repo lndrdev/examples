@@ -5,7 +5,7 @@ import ezcord
 class Cog(ezcord.Cog):
 
     @slash_command()
-    async def ping(self, ctx: commands.Context):
+    async def ping(self, ctx: ezcord.ApplicationContext):
         await ctx.send("Pong!")
 
 def setup(bot: ezcord.Bot):
